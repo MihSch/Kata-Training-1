@@ -1,8 +1,7 @@
 def count_by(x, n):
     list_ = []
     k = (n * 100)+150
-    p = range(x, k)
-    for i in p:
+    for i in range(x, k):
         if i % x == 0:
             list_.append(i)
     return list_[:n]
