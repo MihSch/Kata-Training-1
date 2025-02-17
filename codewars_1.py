@@ -11,5 +11,4 @@ def count_by(x, n):
 
 
 
-b = count_by(100,5)
-print(b)
+print(count_by(100,5))
